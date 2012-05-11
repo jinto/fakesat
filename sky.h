@@ -11,7 +11,7 @@ class Sky : public QWidget
 	Q_OBJECT
 
 public:
-	Sky(char* imgfile,QWidget *parent = 0) ;
+	Sky(int timer_gap, char* imgfile,QWidget *parent = 0) ;
 
 protected:
 	void keyPressEvent(QKeyEvent * event);
@@ -20,6 +20,7 @@ protected:
 private:
 	int pos_x;
 	int pos_y;
+	int timer_gap;
 
 private slots:
 	 void moveSat();
