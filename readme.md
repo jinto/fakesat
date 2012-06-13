@@ -7,7 +7,7 @@ Fake Sat
 
 설치 
 ===
-우선 Qt가 필요 (https://github.com/jinto/fakesat/readmeqt.md)
+우선 Qt가 필요 (https://github.com/jinto/fakesat/blob/master/readmeqt.md)
 
 * 윈도우 : qmake -project;qmake ;make
 * 맥 : qmake -project;qmake -spec macx-g++;make
